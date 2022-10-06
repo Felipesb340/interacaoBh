@@ -1,0 +1,29 @@
+.local {
+  text-align: center;
+  align-items: center;
+  max-width: 850px;
+  margin: 0 auto 5rem auto;
+  padding: 0 2rem;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    margin: 2.5rem auto 2rem auto;
+    color: var(--green-50);
+  }
+
+  span {
+    color: var(--green-50);
+  }
+
+  p {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--gray-50);
+  }
+
+  // border-bottom: 1px solid var(--green-50);
+}
+
+
+

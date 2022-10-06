@@ -1,0 +1,46 @@
+.contentContainer {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  justify-content: center;
+
+  p {
+    margin: 2.5rem auto 0;
+    color: var(--gray-50);
+    line-height: 2rem;
+    justify-content: center;
+    text-align: center;
+    max-width: 720px;
+    font-weight: 400;
+    font-size: 1rem;
+
+    span {
+      color: var(--green-50);
+    }
+  }
+}
+
+.service {
+  max-width: 720px;
+  margin: 5rem auto 0;
+  display: block;
+  text-align: center;
+  
+
+
+  p {
+    margin-top: 2rem;
+    color: var(--gray-50);
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--green-50);
+  }
+
+  img {
+    display: flex;
+    width: 20rem;
+    border-radius: 20px;
+    margin: 2rem auto 0
+  }
+  
+}
