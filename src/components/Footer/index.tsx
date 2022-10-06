@@ -27,7 +27,7 @@ export function Footer() {
       <section>
         <div>
           <img src="/images/localIcon.png" height={20} width={20} alt="" />
-          <Link href="/local">
+          <Link href="https://www.google.com/maps/place/Rua+Dores%C3%B3polis,+902+-+Loja+6+-+Fern%C3%A3o+Dias,+Belo+Horizonte+-+MG,+31910-442/@-19.8740376,-43.9174812,186m/data=!3m1!1e3!4m5!3m4!1s0xa69af0d8f13ed9:0x93b558448fd7bccc!8m2!3d-19.8740525!4d-43.9173463">
             <a>Rua Doresópolis, 902, Loja 6, Belo Horizonte</a>
           </Link>
         </div>
