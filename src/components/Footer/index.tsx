@@ -10,7 +10,7 @@ export function Footer() {
       <section>
         <div>
           <img src="/images/wppIcon.png" height={20} width={20} alt="" />
-          <Link href="https://api.whatsapp.com/send?phone=553136546482&text=Ol%C3%A1!%20Encontrei%20sua%20p%C3%A1gina%20no%20site.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es.">
+          <Link href="https://api.whatsapp.com/send?phone=553136546482&text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos.">
             (31) 3654-6482
           </Link>
         </div>
