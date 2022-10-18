@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link';
 import styles from './home.module.scss';
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
             Venha conhecer nossos serviços, instalações
             e profissionais.
           </p>
-          <button><a href='/agendamento'>Agendar Horário </a></button>
+          <button><Link href='/agendamento'>Agendar Horário </Link></button>
         </section>
         <img src="/images/rafafunc.png" alt="Foto do primerio andar" />
       </main>
