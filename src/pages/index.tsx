@@ -17,7 +17,7 @@ export default function Home() {
             Venha conhecer nossos serviços, instalações
             e profissionais.
           </p>
-          <button><a href='https://www.buscafisio.com.br/interacaobh/agenda'>Agendar Horário </a></button>
+          <button><a href='/agendamento'>Agendar Horário </a></button>
         </section>
         <img src="/images/rafafunc.png" alt="Foto do primerio andar" />
       </main>

@@ -16,7 +16,7 @@ export function Footer() {
         </div>
         <div>
           <img src="/images/clockIcon.png" height={20} width={20} alt="" />
-          <Link href="/func">
+          <Link href="/agendamento">
             Segunda á sexta, 7h ás 19h.
             Sábado, 8h ás 12h
           </Link>

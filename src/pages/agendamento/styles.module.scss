@@ -1,0 +1,25 @@
+.agendamentoContainer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 2rem auto auto;
+  width: 80%;
+  
+  iframe {
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 1080px) {
+
+  .agendamentoContainer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .agendamentoContainer {
+    width: 100%;
+  }
+}

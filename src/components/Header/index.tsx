@@ -8,12 +8,21 @@ export function Header() {
 
   const [isNavExpanded, setIsNavExpanded] = useState(false)
 
-
+  function refreshPage() {
+    setTimeout(() => {
+      window.location.reload(false);
+    }, 150);
+    console.log('page to reload')
+    console.log("Refreshing page")
+  }
 
   return (
     <header className={styles.headerContainer} >
       <div className={isNavExpanded ? styles.headerContentexpanded : styles.headerContent} >
-        <img src="/images/logo.png" alt="Logo" className={styles.logo} />
+        <Link href="/">
+          <img src="/images/logo.png" alt="Logo" className={styles.logo} />
+        </Link>
+
 
         <button className={styles.hamburger}
           onClick={() => {
@@ -36,31 +45,19 @@ export function Header() {
               ''
           }
           <ActiveLink activeClassName={styles.active} href="/">
-            <a
-            // onClick={() => {
-            //   setIsNavExpanded(isNavExpanded === false);
-            // }} 
+            <a onClick={refreshPage}
             >Home</a>
           </ActiveLink>
           <ActiveLink activeClassName={styles.active} href="/servicos"  >
-            <a
-            // onClick={() => {
-            //   setIsNavExpanded(isNavExpanded === false);
-            // }}
+            <a onClick={refreshPage}
             >Serviços</a>
           </ActiveLink>
           <ActiveLink activeClassName={styles.active} href="/profissionais" >
-            <a
-            // onClick={() => {
-            //   setIsNavExpanded(isNavExpanded === false);
-            // }}
+            <a onClick={refreshPage}
             >Profissionais</a>
           </ActiveLink>
-          <ActiveLink activeClassName={styles.active} href="/instalacoes" >
-            <a
-            // onClick={() => {
-            //   setIsNavExpanded(isNavExpanded === false);
-            // }}
+          <ActiveLink activeClassName={styles.active} href="/instalacoes"  >
+            <a onClick={refreshPage}
             >Instalações</a>
           </ActiveLink>
 
@@ -69,8 +66,8 @@ export function Header() {
           {
             isNavExpanded ?
               <button className={styles.headerButtonexpanded} >
-                <Link href='https://www.buscafisio.com.br/interacaobh/agenda'>
-                  Agendamento Online
+                <Link href='/agendamento'  >
+                  <a onClick={refreshPage} > Agedamento Online </a>
                 </Link>
               </button> :
               ''
@@ -78,8 +75,8 @@ export function Header() {
 
         </nav>
         <button className={styles.headerButton} >
-          <Link href='https://www.buscafisio.com.br/interacaobh/agenda'>
-            Agendamento Online
+          <Link href='/agendamento'>
+            <a onClick={refreshPage} > Agedamento Online</a>
           </Link>
         </button>
 

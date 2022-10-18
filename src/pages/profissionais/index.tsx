@@ -55,6 +55,7 @@ export default function Profissionais() {
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
                 className={styles.modalContainer}
+                overlayClassName={styles.Overlay}
               >
                 <ul>
 
@@ -125,6 +126,7 @@ export default function Profissionais() {
                 isOpen={modal2IsOpen}
                 onRequestClose={closeModal2}
                 className={styles.modalContainer}
+                overlayClassName={styles.Overlay}
               >
                 <ul>
                   <li>
