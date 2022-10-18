@@ -10,10 +10,8 @@ export function Header() {
 
   function refreshPage() {
     setTimeout(() => {
-      window.location.reload(false);
+      window.location.reload();
     }, 150);
-    console.log('page to reload')
-    console.log("Refreshing page")
   }
 
   return (
